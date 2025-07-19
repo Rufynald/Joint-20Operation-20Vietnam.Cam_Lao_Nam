@@ -1,1 +1,17 @@
+enableDebugConsole = 1;
 respawnOnStart = -1;
+
+class ACEX_Fortify_Presets {
+    class Rufy_MyPreset {
+        displayName = "Ia Drang Joint OP";
+        objects[] = {
+            {"Land_vn_b_trench_05_02",         200},
+			{"Land_vn_b_mortarpit_01",            100},
+			{"Land_vn_b_foxhole_01",           100},
+			{"Land_vn_bagfence_01_long_green_f",          20},
+			{"Land_vn_b_trench_revetment_05_01",          50},
+			{"Land_vn_lampshabby_f",200}, 
+			{"Land_vn_b_trench_bunker_03_01",     500},
+        };
+    };
+};
