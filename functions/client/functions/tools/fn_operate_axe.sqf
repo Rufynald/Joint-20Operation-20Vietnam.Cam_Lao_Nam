@@ -53,7 +53,7 @@ player setVariable ["para_c_axe_progress", _newProgress];
 if(_newProgress >= _size) then
 {
 
-    ["fell_tree", [_hitObject]] call para_c_fnc_call_on_server;
+    [_hitObject] remoteExecCall ["para_s_fnc_fell_tree", 2];
     player setVariable ["para_c_axe_progress", nil];
     player setVariable ["para_c_axe_progress_tree", nil];
 };
