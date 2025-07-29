@@ -14,28 +14,3 @@ class ACEX_Fortify_Presets {
         };
     };
 };
-
-class CfgFunctions {
-    class para_c {
-        class tools {
-            file = "functions\client\functions\tools";
-            class operate_axe {};
-            class operate_shovel {};
-            class tool_controller_init {};
-        };
-    };
-
-    class para_g {
-        class tools {
-            file = "functions\global\functions\tools";
-            class is_valid_axe_target {};
-        };
-    };
-
-    class para_s {
-        class tools {
-            file = "functions\server\functions\tools";
-            class fell_tree {};
-        };
-    };
-}
