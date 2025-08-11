@@ -14,3 +14,28 @@ class ACEX_Fortify_Presets {
         };
     };
 };
+
+class CfgSounds
+{
+    tracks[]={};
+    class sound5
+    {
+        name = "";
+        sound[] = {"\sound\sound5.ogg", 200, 1};
+    };
+    class sound6
+    {
+        name = "";
+        sound[] = {"\sound\sound6.ogg", 200, 1};
+    };
+    class sound7
+    {
+        name = "";
+        sound[] = {"\sound\sound7.ogg", 200, 1};
+    };
+    class sound8
+    {
+        name = "";
+        sound[] = {"\sound\sound8.ogg", 200, 1};
+    };
+};
